@@ -1,50 +1,59 @@
-# React + TypeScript + Vite
+# MTLove
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MTLove is an interactive social online experience, it aims to provide a fun platform for those who are willing to stimulate cherished and interesting engagement moments of life.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Goal
 
-## Expanding the ESLint configuration
+- Build a safe and fun community.
+- Encourage user to explore more scenarios
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# Core Technology
 
-- Configure the top-level `parserOptions` property like this:
+- ### Front-End:
+  Node.js, React, Vite, Tailwind CSS
+- ### Back-End:
+  Python, Django
+- ### Cloud and storage:
+  Cloudflare Pages, Horku, MongoDB
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+# Data storage structure
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- ### conversations
+  ```
+  {
+  scenario : string,
+  status : { current_score : number , max_score : number },
+  dialogue : [{
+  id : int,
+  role : string,
+  message : string,
+  score_change : number,
+  }]
+  metadata : { id : number, uid : number }
+  }
+  ```
+- ### user
+  ```
+  {
+  uid : number,
+  name : string,
+  }
+  ```
+- ### scenarios
+  ```
+  scenario : [{
+              name : string,
+              img : string,
+              description : string,
+              total_win : number,
+              total_lose : number,
+              }]
+  ```
+---
+# Wireframe
+- ### Scenarios
+- ### Challenge a Scenario
+- ### Challenge finished
+- ### VIew Finished CHallenge
