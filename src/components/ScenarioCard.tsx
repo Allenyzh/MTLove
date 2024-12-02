@@ -1,11 +1,15 @@
+import { useNavigate } from "react-router-dom";
+
 interface ScenarioProps {
   number: number;
 }
 
 export default function ScenarioCard({ number }: ScenarioProps) {
+  const navigate = useNavigate();
+
   return (
     <>
-      <div className="p-6 border-r border-gray-200 last:border-r-0">
+      <div className="p-6 ">
         <h2 className="text-2xl font-semibold mb-6">Scenario {number}</h2>
         <div className="bg-gray-100 aspect-video mb-6 flex items-center justify-center">
           <div className="w-16 h-16 bg-gray-300 flex items-center justify-center">
@@ -34,7 +38,10 @@ export default function ScenarioCard({ number }: ScenarioProps) {
           ))}
         </div>
         <div className="space-y-4">
-          <button className="w-full bg-gray-700 text-white rounded py-2 px-4 hover:bg-gray-600 transition-colors">
+          <button
+            className="w-full bg-gray-700 text-white rounded py-2 px-4 hover:bg-gray-600 transition-colors"
+            onClick={() => navigate("/dialogue")}
+          >
             Get Started
           </button>
           <button className="w-full bg-gray-200 text-gray-700 rounded py-2 px-4 hover:bg-gray-300 transition-colors">

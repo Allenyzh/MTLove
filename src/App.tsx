@@ -1,21 +1,14 @@
-import Nav from "./components/Nav";
-import ScenarioCard from "./components/ScenarioCard";
+import Scenarios from "./pages/Scenarios";
+import Dialogue from "./pages/dialogue";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <Nav />
-      <main className="max-w-7xl mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          <ScenarioCard number={1} />
-          <ScenarioCard number={2} />
-          <ScenarioCard number={3} />
-          <ScenarioCard number={4} />
-          <ScenarioCard number={5} />
-          <ScenarioCard number={6} />
-          <ScenarioCard number={7} />
-        </div>
-      </main>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Scenarios />} />
+        <Route path="/dialogue" element={<Dialogue />} />
+      </Routes>
+    </Router>
   );
 }
