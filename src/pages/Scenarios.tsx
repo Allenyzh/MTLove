@@ -1,6 +1,7 @@
 import Nav from "../components/Nav";
 import ScenarioCard from "../components/ScenarioCard";
 
+
 export default function Scenarios() {
   return (
     <div className="min-h-screen bg-white">

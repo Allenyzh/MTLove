@@ -7,7 +7,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Scenarios />} />
-        <Route path="/dialogue" element={<Dialogue />} />
+        <Route path="/dialogue/:scenarioName" element={<Dialogue />} />
       </Routes>
     </Router>
   );

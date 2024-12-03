@@ -40,7 +40,7 @@ export default function ScenarioCard({ number }: ScenarioProps) {
         <div className="space-y-4">
           <button
             className="w-full bg-gray-700 text-white rounded py-2 px-4 hover:bg-gray-600 transition-colors"
-            onClick={() => navigate("/dialogue")}
+            onClick={() => navigate(`/dialogue/Scenario${number}`)}
           >
             Get Started
           </button>
