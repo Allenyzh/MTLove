@@ -1,5 +1,5 @@
 import Scenarios from "./pages/Scenarios";
-import Dialogue from "./pages/dialogue";
+import Dialogue from "./pages/Dialogue";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 export default function App() {

@@ -1,0 +1,39 @@
+{
+  "scenarios": [
+    {
+      "name": "女朋友生气了",
+      "img": "https://cdn.midjourney.com/4fc71fe4-8d88-43d7-851e-17a66a722fb4/0_0.png",
+      "description": "房间里一片安静，只有钟表的滴答声在回响。女朋友坐在沙发上，双臂交叉，脸上写满了不满。她的眼神像雷电一样直射过来，让空气中弥漫着紧张的气息。男朋友站在一旁手足无措，拿着一杯温水，试图挤出一个笑容哄她开心，但似乎收效甚微。桌上放着两人刚点的外卖，冰冷的菜肴无声地讲述着争吵的经过。",
+      "total_win": 0,
+      "total_lose": 100
+    },
+    {
+      "name": "老妈女友同时落水",
+      "img": "https://cdn.midjourney.com/63dd84ef-22f0-4304-b0e2-c2356675f360/0_2.png",
+      "description": "一个湖边的紧急时刻，两个人影在水中挣扎。男主角站在岸边，脸上充满了挣扎与恐惧。他的母亲在左边，挥舞着双手大喊：‘救我！’而他的女朋友在右边，同样拼命地喊着：‘我在这里！’时间仿佛凝固，男主角额头的汗珠不停滑落。他的眼神在两人之间来回游移，心跳如雷鼓，脑海中飞速思索，然而似乎每一秒都像一个世纪般漫长, 你先救谁???!!!",
+      "total_win": 0,
+      "total_lose": 100
+    },
+    {
+      "name": "你瞅啥",
+      "img": "https://cdn.midjourney.com/02746dcc-dfa0-4b2f-a754-609eefa14559/0_0.png",
+      "description": "你瞅啥???!!!",
+      "total_win": 0,
+      "total_lose": 100
+    },
+    {
+      "name": "瞅你咋地",
+      "img": "https://cdn.midjourney.com/02746dcc-dfa0-4b2f-a754-609eefa14559/0_0.png",
+      "description": "你瞅啥???!!!",
+      "total_win": 0,
+      "total_lose": 100
+    },
+    {
+      "name": "爱咋咋地",
+      "img": "https://cdn.midjourney.com/02746dcc-dfa0-4b2f-a754-609eefa14559/0_0.png",
+      "description": "你瞅啥???!!!",
+      "total_win": 10,
+      "total_lose": 100
+    }
+  ]
+}
