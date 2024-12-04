@@ -1,0 +1,12 @@
+{
+  "nav_bar": {
+    "rank_en": "Rank",
+    "rank_zh": "排名",
+    "create_en": "Create",
+    "create_zh": "新建",
+    "username_en": "username",
+    "username_zh": "用户名",
+    "status_bar_en":"Status Bar",
+    "status_bar_zh":"血条"
+  }
+}

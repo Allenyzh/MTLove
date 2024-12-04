@@ -6,11 +6,11 @@ interface ScenarioProps {
 }
 
 interface Scenario {
-  name: string; // 场景名称
-  img: string; // 场景图片路径
-  description: string; // 场景描述
-  total_win: number; // 胜利的总数
-  total_lose: number; // 失败的总数
+  name: string;
+  img: string;
+  description: string;
+  total_win: number;
+  total_lose: number;
 }
 
 export default function ScenarioCard({ number }: ScenarioProps) {
