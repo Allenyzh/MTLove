@@ -12,7 +12,7 @@ export default function ChallengeBtn({ id, name }) {
     <Link
       to={`${
         name === "home" || name === "submit"
-          ? "mtlove"
+          ? "/mtlove"
           : isFinished
           ? id
           : `${id}/finished`
