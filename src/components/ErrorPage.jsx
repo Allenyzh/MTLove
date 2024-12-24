@@ -4,7 +4,7 @@ export default function ErrorPage() {
     <>
       <div className="flex flex-col-reverse items-center justify-center h-screen">
         <Link
-          to="/"
+          to="mtlove"
           className="text-2xl font-semibold text-white bg-red-500 p-2 rounded hover:scale-105 hover:bg-blue-500 "
         >
           Back
