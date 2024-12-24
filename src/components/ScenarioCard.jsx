@@ -39,7 +39,7 @@ export default function ScenarioCard() {
       {/* New Scenario */}
 
       <Link
-        to="create"
+        to="/create"
         className={`flex flex-col h-96 border-2 justify-center items-center rounded-2xl shadow-lg ${buttonAnimation}`}
       >
         <button className="text-9xl my-auto text-slate-400">+</button>
