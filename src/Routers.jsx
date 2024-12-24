@@ -11,7 +11,7 @@ export default function Routers() {
     <BrowserRouter>
       <Routes>
         <Route element={<MainPageLayout />}>
-          <Route index element={<Scenarios />} />
+          <Route path="mtlove" element={<Scenarios />} />
           <Route path="create" element={<CreateNewScenario />} />
 
           <Route path="challenge">
